@@ -1,0 +1,43 @@
+.form {
+    background-color: #2C3E50;
+    padding:20px;
+    width:30vw;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius: 10px;
+}
+@media(max-width:1500px) {
+    .form {
+        width:50vw;
+    }
+}
+@media(max-width:1000px) {
+    .form {
+        width:90vw;
+    }
+}
+
+.containerForm {
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+.body {
+    background:url('../assets/header1.jpg') !important;
+    background-position: center;
+    position:relative;
+
+}
+
+.panelImage {
+    max-width:400px;
+}
+.navigation {
+    z-index:100;
+}
